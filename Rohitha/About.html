@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(100deg, rgb(0, 128, 157),
+                    rgb(252, 236, 221),
+                    rgb(255, 118, 1),
+                    rgb(243, 162, 109));
+            background-size: 200% 200%;
+            animation: wave 5s ease-in-out infinite, motion 5s ease-in-out infinite;
+
+        }
+
+        div {
+            background-color: rgb(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+            max-width: fit-content;
+            padding: 20px;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        @keyframes motion {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        p {
+
+            font-size: 40px;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Schooling
+    </h1>
+    <div>
+        <p>
+            <b>I completed my schooling from
+                Narayana high school
+                <br>
+                and my 8th to 10th in
+                SR Digi school
+
+            </b>
+        </p>
+    </div>
+
+    <h1>
+        Intermediate
+    </h1>
+    <div>
+        <p>
+            <b>I completed my intermediate from
+                Narayana Junior College
+            </b><br>
+            <i> I scored 97 percentage in my intermediate</i>
+        </p>
+    </div>
+
+
+</body>
+
+</html>
