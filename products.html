@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+
+        }
+
+        .product-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to your one stop shopping needs!!</h1>
+    <section>
+        <h2>Featured products</h2>
+        <div class="product-box">
+            <div class="product-card">
+                <img src="python book.jpg" alt="product1" />
+                <h3>Python book</h3>
+                <p>$200</p>
+                <a href="" class="btn">view</a>
+            </div>
+            <div class="product-card">
+                <img src="thermodynamics book.jpeg" alt="product2" />
+                <h3>Thermodynamic book</h3>
+                <p>$220</p>
+                <a href="" class="btn">view</a>
+            </div>
+            <div class="product-card">
+                <img src="snickers.webp" alt="product3" />
+                <h3>Shoes</h3>
+                <p>$300</p>
+                <a href="" class="btn">view</a>
+            </div>
+            <div class="product-card">
+                <img src="laptop bag.webp" alt="product4" />
+                <h4>Laptop bag</h4>
+                <p>$100</p>
+                <a href="" class="btn">view</a>
+            </div>
+
+        </div>
+    </section>
+    <h1>Explore more needs!!....</h1>
+
+</body>
+
+</html>
